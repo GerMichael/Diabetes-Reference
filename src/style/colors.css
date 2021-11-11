@@ -1,0 +1,44 @@
+:root{
+    /* font-color */
+    --text-color-light: #FFF;
+    --text-color-dark: #111;
+    --text-color-gray: #888;
+    --text-color-light-gray: #DDD;
+
+    /*other*/
+    --color-red: #f44336;
+    --background-red: #f44336e8;
+    --background-red-hover: #f44336bb;
+    --background-red-active: #f44336;
+    --mark-red: #f443362c;
+
+    --color-orange: #ffa500;
+    --background-orange: #ffa500e8;
+    --background-orange-hover: #ffa500bb;
+    --background-orange-active: #ffa500;
+    --mark-orange: #ffa5002c;
+
+    --color-blue: #4169E1;
+    --background-blue: #4169E1e8;
+    --background-blue-hover: #4169E1bb;
+    --background-blue-active: #4169E1;
+    --mark-blue: #4169E12c;
+
+    --color-green: #119b1a;
+    --background-green: #119b1ae8;
+    --background-green-hover: #119b1abb;
+    --background-green-active: #119b1a;
+    --mark-green: #119b1a2c;
+    
+    --color-purple: #673ab7;
+    --background-purple: #673ab7e8;
+    --background-purple-hover: #673ab7bb;
+    --background-purple-active: #673ab7;
+    --mark-purple: #673ab72c;
+
+    --main-color: var(--color-red);
+    --main-color-background: var(--background-red);
+    --main-color-background-hover: var(--background-red-hover);
+    --main-color-background-active: var(--background-red-active);
+    --main-color-mark: var(--mark-red);
+}

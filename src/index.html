@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Diabetes Reference</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/loadingApple.css">
+    <link rel="stylesheet" href="style/colors.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header_hidden"> <!--header_hidden-->
+      <span id="search_logo">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+              <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/><path d="M0 0h24v24H0z" fill="none"/>
+          </svg>
+      </span>
+      <!--<span id="header_logo">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </span>-->
+      <!--<span id="header_title">Diabetes Reference</span>-->
+      <span id="searchbar">
+        <div id="searchbar_background">
+          <form action="return false;">
+            <input type="search" id="searchbar_input" placeholder="Suchbegriff hier eingeben"/>
+          </form>
+          <div id="searchbar_clear">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+          </div>
+        </div>
+      </span>
+      <span id="settings_icon">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+        </svg>
+      </span>
+      <div id="settings_container" class="">
+        <svg height="20" width="50" id="triangle"  > <!--filter="url(#f1)"-->
+          <polygon points="25,0 0,20 50,20"/>
+          <path d="M0 20 L25 0 L50 20" stroke="#AAA"></path>
+        </svg>
+        <div id="settings">
+          <h1>Farb-Schema:</h1>
+          <div id="color_container">
+            <div id="red-color-selector"></div>
+            <div id="orange-color-selector"></div>
+            <div id="blue-color-selector"></div>
+            <div id="green-color-selector"></div>
+            <div id="purple-color-selector"></div>
+          </div>
+          <h1>Symbole:</h1>
+          <div id="symbols_container">
+              <table>
+                <tr>
+                  <td>x.x*</td>
+                  <td>Diese Produkte sind ohne BE-/KE-Anrechnung bis 200g verzehrbar.</td>
+                </tr>
+                <tr>
+                  <td>+</td>
+                  <td>BE/KE nur in geringen Mengen vorhanden.</td>
+                </tr>
+              </table>
+          </div>
+          <h1>Werte-Vorschläge:</h1>
+          <div id="upload_container">
+            <a href="Request New Element.html" target="_blank">
+              <img src="imgs/create-24px.svg" alt="Create Content Element">
+              <p>Vorschlag für eine neues Essens-Element.</p>
+            </a>
+          </div>
+          <h1>Weitere Informationen:</h1>
+          <div>
+            <table>
+              <tr>
+                <td>Datenursprung:</td>
+                <td>Kalorien mundgerecht (Nestlé Deutschland AG)</td>
+              </tr>
+              <tr>
+                <td>Applikation:</td>
+                <td>Michael Gerischer</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <nav id="category" class="category_only"> <!--category_only-->
+        <ul>
+          <li class="active"><span>Milch &<br/>Käse<span class="search_result_num">200</span></span></li> <!-- draggable="true" -->
+          <li><span>Gemüse &<br/>Obst<span class="search_result_num">100</span></span></li>
+          <li><span>Getreide<br class="single_line hidden"/><span class="search_result_num">100</span></span></li>
+          <li><span>Fleisch, Wurst &<br/>Eier<span class="search_result_num">100</span></span></li>
+          <li><span>Süße Gerichte &<br/>Desserts<span class="search_result_num">100</span></span></li>
+          <li><span>Getränke<br class="single_line hidden"/><span class="search_result_num single_line">100</span></span></li>
+          <li><span>Custom<br class="single_line hidden"/><span class="search_result_num single_line">100</span></span></li>
+        </ul>
+      </nav>
+      <div id="loading">
+        <!--<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><g><path d="M20,11c-0.18,0-0.36,0.03-0.53,0.05L17.41,9H20V6l-3.72,1.86L13.41,5H9v2h3.59l2,2H11l-4,2L5,9H0v2h4c-2.21,0-4,1.79-4,4 c0,2.21,1.79,4,4,4c2.21,0,4-1.79,4-4l2,2h3l3.49-6.1l1.01,1.01C16.59,12.64,16,13.75,16,15c0,2.21,1.79,4,4,4c2.21,0,4-1.79,4-4 C24,12.79,22.21,11,20,11z M4,17c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2c1.1,0,2,0.9,2,2C6,16.1,5.1,17,4,17z M20,17c-1.1,0-2-0.9-2-2 c0-1.1,0.9-2,2-2s2,0.9,2,2C22,16.1,21.1,17,20,17z"/><rect fill="none" fill-rule="evenodd" height="24" width="24" x="0" y="0"/></g></svg>-->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+          <defs>
+            <style>
+              .cls-1{
+                stroke: var(--color-red);
+                fill: none;
+                stroke-width: 5px; 
+                box-sizing: border-box;
+              }
+            </style>
+          </defs>
+          <path class="cls-1" d="M209,88.2s18.41-48.31,34-58,24.3-5.14,27.07-1.38,3.16,10.28-3.57,15.23S237.27,63.43,227,89.34c26.31.8,19,0,34.62,1.59s95.54,3,108.4,101.67c8.69,66.77-5.94,157.81-58.36,203.34-25.06,21.77-60.2,28.06-102.85,25.84-40.16-2.08-63.35-3.49-84.4-12.65C76.32,388.2,62.7,348.9,49.49,325.78,30.5,292.55,12.57,241.39,31,180.2,49,113.48,93.8,102.66,114.9,97.39s62.77-7.91,62.77-7.91S170,79.06,127.29,81,45,96.47,3.47,15.76C55.29-5.6,100.79,4.69,114.24,7.06s33.23,12.66,45.1,36.39,22.94,44.71,25.31,46.29S209,88.2,209,88.2Z"/>
+        </svg>
+        <div id="loading_indicator">Loading<br/>0%</div>
+      </div>
+      <div id="debug"></div>
+      <div id="content" class="category_only hidden"> <!--category_only-->
+        <div id="calc_background" class=""> <!--calc_shown-->
+          <div id="calc_container">
+            <div id="calc_close_button">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 27 27" width="24">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+              </svg>
+            </div>
+            <p>Umrechnung</p>
+            <div id="calc_input" class="">
+              <form>
+                <div id="calc_input_fields">
+                  <input id="calc_value_input" type="number" step=".01" value="0" min="0" max="9999" />
+                  <span id="calc_unit"></span>
+                </div>
+              </form>
+              <span id="calc_convert_arrow">↔</span>
+              <span id="calc_result_be_ke">
+                <span id="calc_result_be">
+                  <span>1.5</span><span>BE</span>
+                </span>
+                <span id="calc_result_ke">
+                  <span>1.5</span><span>KE</span>
+                </span>
+              </span>
+            </div>
+            <div id="calc_error" class="hidden">
+              Leider ist bei diesem Element die Umrechnung nicht möglich.
+            </div>
+          </div>
+        </div>
+        <div id="nothing_found" class="hidden">
+          <div class="nothing_found_img"></div>
+          <!--<img src="imgs/unicorn_bw.svg" alt="Unicorn Shrug">-->
+          <p>In dieser Kategorie wurde<br/>leider nichts gefunden.</p>
+        </div>
+        <div role="container for large comment">
+          <!--<ul class="layer1">
+          <li>
+            <h1>Layer 1</h1>
+            <ul class="layer2">
+              <li>
+                <h2>Layer 2</h2>
+                <ul class="elements">
+                  <li>
+                    <div class="element">
+                      <div class="header">
+                        <div class="el_name">Element Name</div>
+                        <div class="values">
+                          <span class="el_be"><span class="el_be_val">1</span><span class="el_be_uni">BE</span></span>
+                          <span class="el_ke"><span class="el_ke_val">1</span><span class="el_ke_uni">KE</span></span>
+                        </div>
+                        <div class="arrow">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/><path d="M0 0h24v24H0V0z" fill="none"/></svg>
+                        </div>
+                      </div>
+                      <div class="body">
+                        <div class="unit">
+                          entspricht 
+                          <span class="entsprEinh">1 Löffel</span>
+                          <span class="einheitsGr">250 ml</span>
+                        </div>
+                        <div class="variation">
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="element">
+                      <div class="header">
+                        <div class="el_name">Element Name</div>
+                        <div class="values">
+                          <span class="el_be"><span class="el_be_val">1</span><span class="el_be_uni">BE</span></span>
+                          <span class="el_ke"><span class="el_ke_val">1</span><span class="el_ke_uni">KE</span></span>
+                        </div>
+                        <div class="arrow">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="arrow_up"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/><path d="M0 0h24v24H0V0z" fill="none"/></svg>
+                        </div>
+                      </div>
+                      <div class="body body_shown">
+                        <div class="unit">
+                          <span class="entsprEinh">1 Löffel</span>
+                          <span class="einheitsGr">250 ml</span>
+                        </div>
+                        <div class="variation">
+                          <ul>
+                            <li>
+                              <div class="element">
+                                <div class="header">
+                                  <div class="el_name">Element Name</div>
+                                  <div class="values">
+                                    <span class="el_be"><span class="el_be_val">1</span><span class="el_be_uni">BE</span></span>
+                                    <span class="el_ke"><span class="el_ke_val">1</span><span class="el_ke_uni">KE</span></span>
+                                  </div>
+                                  <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/><path d="M0 0h24v24H0V0z" fill="none"/></svg>
+                                  </div>
+                                </div>
+                                <div class="body">
+                                  <div class="unit">
+                                    <span class="entsprEinh">1 Löffel</span>
+                                    <span class="einheitsGr">250 ml</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>   -->
+        </div>
+      </div>
+    </main>
+    <footer>
+      <script></script>
+      <script src="script/data.js"></script>
+      <script src="script/search.js"></script>
+      <script src="script/main.js"></script>
+    </footer>
+  </body>
+</html>

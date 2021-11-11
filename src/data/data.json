@@ -1,0 +1,1378 @@
+{
+  "lastId": 153,
+  "subElements": [
+    {
+      "name": "Milch und Käse",
+      "id": 0,
+      "subElements": [
+        {
+          "name": "Milch, Joghurt, Sahne",
+          "id": 1,
+          "subElements": [
+            {
+              "name": "MILCH",
+              "id": 2,
+              "subElements": [
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "1 Glas",
+                  "be": "0.8",
+                  "name": "Kuhmilch",
+                  "ke": "0.9",
+                  "id": 3,
+                  "subElements": [
+                    {
+                      "einheitsGroesse": "200 ml",
+                      "entsprichtEinheit": "1 Glas",
+                      "be": "0.8",
+                      "name": "glückliche Kuhmilch",
+                      "ke": "1",
+                      "id": 4,
+                      "layer": 4
+                    },
+                    {
+                      "einheitsGroesse": "200 ml",
+                      "entsprichtEinheit": "1 Glas",
+                      "be": "0.8",
+                      "name": "gesonnte Kuhmilch",
+                      "ke": "1",
+                      "id": 5,
+                      "layer": 4
+                    },
+                    {
+                      "einheitsGroesse": "200 ml",
+                      "entsprichtEinheit": "1 Glas",
+                      "be": "0.8",
+                      "name": "geschüttelte Kuhmilch",
+                      "ke": "1",
+                      "id": 6,
+                      "layer": 4
+                    }
+                  ],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "125 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.5",
+                  "name": "Schafsmilch",
+                  "ke": "0.6",
+                  "id": 7,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "125 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.7",
+                  "name": "Sonnenmilch",
+                  "ke": "0.8",
+                  "id": 8,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "125 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.4",
+                  "name": "Kokosmilch",
+                  "ke": "0.5",
+                  "id": 9,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "MILCHMISCHGETRÄNKE",
+              "id": 10,
+              "subElements": [
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "1 Glas",
+                  "be": "2.5",
+                  "name": "Bananenmilch",
+                  "ke": "3",
+                  "id": 11,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "1 Becher",
+                  "be": "1.7",
+                  "name": "Milchbanane",
+                  "ke": "2",
+                  "id": 12,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "250 g",
+                  "entsprichtEinheit": "1 Becher",
+                  "be": "2.4",
+                  "name": "Bananenlosemilch",
+                  "ke": "2.9",
+                  "id": 13,
+                  "subElements": [{
+                    "einheitsGroesse": "250 g",
+                    "entsprichtEinheit": "1 Becher",
+                    "be": "2.5",
+                    "name": "BananenlosemilchmitBanane",
+                    "ke": "3",
+                    "id": 14,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            }
+          ],
+          "layer": 1
+        },
+        {
+          "name": "Käse und Quark",
+          "id": 15,
+          "subElements": [
+            {
+              "name": "FRISCHKÄSE UND QUARK",
+              "id": 16,
+              "subElements": [
+                {
+                  "einheitsGroesse": "30 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1",
+                  "name": "Leckerer Frischkäse",
+                  "ke": "0.1",
+                  "id": 17,
+                  "subElements": [{
+                    "einheitsGroesse": "30 g",
+                    "entsprichtEinheit": "",
+                    "be": "0.1",
+                    "name": "Sehr leckerer Frischkäse",
+                    "ke": "0.1",
+                    "id": 18,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "20 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1",
+                  "name": "Nur halb so leckerer Frischkäse",
+                  "ke": "0.1",
+                  "id": 19,
+                  "subElements": [{
+                    "einheitsGroesse": "20 g",
+                    "entsprichtEinheit": "",
+                    "be": "0.1",
+                    "name": "Frischkäse, der OK ist",
+                    "ke": "0.1",
+                    "id": 20,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "150 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.7",
+                  "name": "Anderer Frischkäse",
+                  "ke": "0.8",
+                  "id": 21,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "KÄSE",
+              "id": 22,
+              "subElements": [
+                {
+                  "einheitsGroesse": "20 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1",
+                  "name": "Bayerische Käse",
+                  "ke": "0.1",
+                  "id": 23,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "30 g",
+                  "entsprichtEinheit": "",
+                  "be": "0",
+                  "name": "Deutscher Käse",
+                  "ke": "0",
+                  "id": 24,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "0",
+                  "name": "Europäischer Käse",
+                  "ke": "0",
+                  "id": 25,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "30 g",
+                  "entsprichtEinheit": "",
+                  "be": "0",
+                  "name": "Internationaler Käse",
+                  "ke": "0",
+                  "id": 26,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "KÄSEGERICHTE",
+              "id": 27,
+              "subElements": [
+                {
+                  "einheitsGroesse": "75 g",
+                  "entsprichtEinheit": "",
+                  "be": "1.3",
+                  "name": "Camembert",
+                  "ke": "1.6",
+                  "id": 28,
+                  "subElements": [{
+                    "einheitsGroesse": "75 g",
+                    "entsprichtEinheit": "",
+                    "be": "0.9",
+                    "name": "Gebackener Camembert",
+                    "ke": "1.1",
+                    "id": 29,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "75 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.9",
+                  "name": "Käsespätzle",
+                  "ke": "1.1",
+                  "id": 30,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            }
+          ],
+          "layer": 1
+        }
+      ],
+      "layer": 0
+    },
+    {
+      "name": "Gemüse und Obst",
+      "id": 31,
+      "subElements": [
+        {
+          "name": "Gemüse",
+          "id": 32,
+          "subElements": [
+            {
+              "name": "FRISCHES GEMÜSE",
+              "id": 33,
+              "subElements": [
+                {
+                  "einheitsGroesse": "100 g",
+                  "entsprichtEinheit": "1 Stück",
+                  "be": "0.3*",
+                  "name": "Frischer Kohl",
+                  "ke": "0.3*",
+                  "id": 34,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.4*",
+                  "name": "Frische Tomate",
+                  "ke": "0.5*",
+                  "id": 35,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 g",
+                  "entsprichtEinheit": "",
+                  "be": "4",
+                  "name": "Frische Gurke",
+                  "ke": "4.8",
+                  "id": 36,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.4*",
+                  "name": "Frischer Brokkoli",
+                  "ke": "0.5*",
+                  "id": 37,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 g",
+                  "entsprichtEinheit": "",
+                  "be": "2.1",
+                  "name": "Frische Bohnen",
+                  "ke": "2.5",
+                  "id": 38,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "GEMÜSEKONSERVEN",
+              "id": 39,
+              "subElements": [
+                {
+                  "einheitsGroesse": "200 g",
+                  "entsprichtEinheit": "",
+                  "be": "1.5",
+                  "name": "Apfelrotkohl",
+                  "ke": "1.8",
+                  "id": 40,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1",
+                  "name": "Kartoffelsalat",
+                  "ke": "0.1",
+                  "id": 41,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1",
+                  "name": "Essiggurken",
+                  "ke": "0.1",
+                  "id": 42,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            }
+          ],
+          "layer": 1
+        },
+        {
+          "name": "SALAT, KRÄUTER, SPROSSEN UND PILZE",
+          "id": 43,
+          "subElements": [
+            {
+              "name": "BLATTSALATE",
+              "id": 44,
+              "subElements": [
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1*",
+                  "name": "Grüner Salat",
+                  "ke": "0.1*",
+                  "id": 45,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "25 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1*",
+                  "name": "Roter Salat",
+                  "ke": "0.1*",
+                  "id": 46,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.2*",
+                  "name": "Blauer Salat",
+                  "ke": "0.2*",
+                  "id": 47,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.2*",
+                  "name": "Gelber Salat",
+                  "ke": "0.2*",
+                  "id": 48,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1*",
+                  "name": "Orangener Salat",
+                  "ke": "0.1*",
+                  "id": 49,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1*",
+                  "name": "Brauner Salat",
+                  "ke": "0.1*",
+                  "id": 50,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1*",
+                  "name": "Weißer Salat",
+                  "ke": "0.1*",
+                  "id": 51,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "50 g",
+                  "entsprichtEinheit": "",
+                  "be": "+*",
+                  "name": "Schwarzer Salat",
+                  "ke": "+*",
+                  "id": 52,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "SALATE, FRISCH ZUBEREITET, MIT DRESSING ODER MARINADE",
+              "id": 53,
+              "subElements": [
+                {
+                  "einheitsGroesse": "100 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.3*",
+                  "name": "Orangener Salat mit Kürbis",
+                  "ke": "0.4*",
+                  "id": 54,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.2*",
+                  "name": "Roter Salat mit Tomate",
+                  "ke": "0.2*",
+                  "id": 55,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1*",
+                  "name": "Brauner Salat mit Pilzen",
+                  "ke": "0.1*",
+                  "id": 56,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.1*",
+                  "name": "Weißer Salat mit Blumenkohl",
+                  "ke": "0.1*",
+                  "id": 57,
+                  "subElements": [{
+                    "einheitsGroesse": "100 g",
+                    "entsprichtEinheit": "",
+                    "be": "0.2*",
+                    "name": "mit Joghurtsauce",
+                    "ke": "0.2*",
+                    "id": 58,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            }
+          ],
+          "layer": 1
+        },
+        {
+          "name": "Obst",
+          "id": 59,
+          "subElements": [{
+            "name": "FRISCHES OBST",
+            "id": 60,
+            "subElements": [
+              {
+                "einheitsGroesse": "125 g",
+                "entsprichtEinheit": "",
+                "be": "0.3",
+                "name": "Erdbeeren",
+                "ke": "0.3",
+                "id": 61,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "125 g",
+                "entsprichtEinheit": "",
+                "be": "1.3",
+                "name": "Ananas",
+                "ke": "1.6",
+                "id": 62,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "150 g",
+                "entsprichtEinheit": "",
+                "be": "1.8",
+                "name": "Äpfel",
+                "ke": "2.2",
+                "id": 63,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "50 g",
+                "entsprichtEinheit": "",
+                "be": "0.3",
+                "name": "Aprikose",
+                "ke": "0.4",
+                "id": 64,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "100 g",
+                "entsprichtEinheit": "",
+                "be": "0.6*",
+                "name": "Orange",
+                "ke": "0.7*",
+                "id": 65,
+                "subElements": [],
+                "layer": 3
+              }
+            ],
+            "layer": 2
+          }],
+          "layer": 1
+        }
+      ],
+      "layer": 0
+    },
+    {
+      "name": "Getreide",
+      "id": 66,
+      "subElements": [
+        {
+          "name": "Frühstückscerealien",
+          "id": 67,
+          "subElements": [{
+            "name": "MÜSLI",
+            "id": 68,
+            "subElements": [
+              {
+                "einheitsGroesse": "30 g",
+                "entsprichtEinheit": "",
+                "be": "1.4",
+                "name": "Schokomüsli",
+                "ke": "1.7",
+                "id": 69,
+                "subElements": [
+                  {
+                    "einheitsGroesse": "",
+                    "entsprichtEinheit": "",
+                    "be": "1.9",
+                    "name": "Zartbitter Schokomüsli",
+                    "ke": "2.3",
+                    "id": 70,
+                    "layer": 4
+                  },
+                  {
+                    "einheitsGroesse": "",
+                    "entsprichtEinheit": "",
+                    "be": "1.9",
+                    "name": "Weißes Schokomüsli",
+                    "ke": "2.3",
+                    "id": 71,
+                    "layer": 4
+                  },
+                  {
+                    "einheitsGroesse": "",
+                    "entsprichtEinheit": "",
+                    "be": "1.9",
+                    "name": "VollmilchSchokomüsli",
+                    "ke": "2.3",
+                    "id": 72,
+                    "layer": 4
+                  }
+                ],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "40 g",
+                "entsprichtEinheit": "",
+                "be": "2",
+                "name": "Erdbeermüsli",
+                "ke": "3",
+                "id": 73,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "30 g",
+                "entsprichtEinheit": "",
+                "be": "1.5",
+                "name": "Biermüsli",
+                "ke": "1.8",
+                "id": 74,
+                "subElements": [],
+                "layer": 3
+              }
+            ],
+            "layer": 2
+          }],
+          "layer": 1
+        },
+        {
+          "name": "Kuchen und Gebäck",
+          "id": 75,
+          "subElements": [{
+            "name": "KUCHEN UND TORTEN",
+            "id": 76,
+            "subElements": [
+              {
+                "einheitsGroesse": "150 g",
+                "entsprichtEinheit": "",
+                "be": "3.6",
+                "name": "Apfelkuchen",
+                "ke": "4.3",
+                "id": 77,
+                "subElements": [
+                  {
+                    "einheitsGroesse": "150 g",
+                    "entsprichtEinheit": "",
+                    "be": "3.8",
+                    "name": "Apfelkuchen ohne Äpfel",
+                    "ke": "4.5",
+                    "id": 78,
+                    "layer": 4
+                  },
+                  {
+                    "einheitsGroesse": "150 g",
+                    "entsprichtEinheit": "",
+                    "be": "4.3",
+                    "name": "Apfelkuchen ohne Kuchen",
+                    "ke": "5.2",
+                    "id": 79,
+                    "layer": 4
+                  }
+                ],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "150 g",
+                "entsprichtEinheit": "",
+                "be": "3.3",
+                "name": "Apfelstrudel",
+                "ke": "3.9",
+                "id": 80,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "100 g",
+                "entsprichtEinheit": "",
+                "be": "2.3",
+                "name": "Birnenstrudel",
+                "ke": "2.7",
+                "id": 81,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "150 g",
+                "entsprichtEinheit": "",
+                "be": "2.7",
+                "name": "Beerenstrudel",
+                "ke": "3.2",
+                "id": 82,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "70 g",
+                "entsprichtEinheit": "",
+                "be": "2.6",
+                "name": "Bärenstrudel",
+                "ke": "3.1",
+                "id": 83,
+                "subElements": [],
+                "layer": 3
+              }
+            ],
+            "layer": 2
+          }],
+          "layer": 1
+        }
+      ],
+      "layer": 0
+    },
+    {
+      "name": "Fleisch, Wurst und Eier",
+      "id": 84,
+      "subElements": [
+        {
+          "name": "Flesich und Geflügel",
+          "id": 85,
+          "subElements": [{
+            "name": "FLEISCH",
+            "id": 86,
+            "subElements": [
+              {
+                "einheitsGroesse": "125 g",
+                "entsprichtEinheit": "",
+                "be": "0",
+                "name": "Hasenfleisch",
+                "ke": "0",
+                "id": 87,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "125 g",
+                "entsprichtEinheit": "",
+                "be": "0",
+                "name": "Hirschfleisch",
+                "ke": "0",
+                "id": 88,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "125 g",
+                "entsprichtEinheit": "",
+                "be": "0",
+                "name": "Eulenfleisch",
+                "ke": "0",
+                "id": 89,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "125 g",
+                "entsprichtEinheit": "",
+                "be": "0",
+                "name": "Kaninchenfleisch",
+                "ke": "0",
+                "id": 90,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "125 g",
+                "entsprichtEinheit": "",
+                "be": "0",
+                "name": "Lammfleisch",
+                "ke": "0",
+                "id": 91,
+                "subElements": [],
+                "layer": 3
+              }
+            ],
+            "layer": 2
+          }],
+          "layer": 1
+        },
+        {
+          "name": "Fleisch- und Wurstwaren",
+          "id": 92,
+          "subElements": [{
+            "name": "Fleisch- und Wurstwaren",
+            "id": 93,
+            "subElements": [
+              {
+                "einheitsGroesse": "150 g",
+                "entsprichtEinheit": "",
+                "be": "+",
+                "name": "Runde Wurst",
+                "ke": "+",
+                "id": 94,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "30 g",
+                "entsprichtEinheit": "",
+                "be": "+",
+                "name": "Viereckige Wurst",
+                "ke": "+",
+                "id": 95,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "25 g",
+                "entsprichtEinheit": "",
+                "be": "+",
+                "name": "Fünfeckige Wurst",
+                "ke": "+",
+                "id": 96,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "30 g",
+                "entsprichtEinheit": "",
+                "be": "0.1",
+                "name": "Rautenwurst",
+                "ke": "0.1",
+                "id": 97,
+                "subElements": [{
+                  "einheitsGroesse": "30 g",
+                  "entsprichtEinheit": "",
+                  "be": "+",
+                  "name": "Rautenwurst mit fünf Ecken",
+                  "ke": "+",
+                  "id": 98,
+                  "layer": 4
+                }],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "100 g",
+                "entsprichtEinheit": "",
+                "be": "+",
+                "name": "Zweieckige Wurst?",
+                "ke": "+",
+                "id": 99,
+                "subElements": [],
+                "layer": 3
+              },
+              {
+                "einheitsGroesse": "30 g",
+                "entsprichtEinheit": "",
+                "be": "0",
+                "name": "Punktuelle Wurst",
+                "ke": "0",
+                "id": 100,
+                "subElements": [],
+                "layer": 3
+              }
+            ],
+            "layer": 2
+          }],
+          "layer": 1
+        }
+      ],
+      "layer": 0
+    },
+    {
+      "name": "Süße Gerichte und Desserts",
+      "id": 101,
+      "subElements": [{
+        "name": "Süße Gerichte und Desserts",
+        "id": 102,
+        "subElements": [{
+          "name": "SÜSSE GERICHTE",
+          "id": 103,
+          "subElements": [
+            {
+              "einheitsGroesse": "200 g",
+              "entsprichtEinheit": "2 Stück",
+              "be": "5.2",
+              "name": "Schokokuchen",
+              "ke": "6.2",
+              "id": 104,
+              "subElements": [],
+              "layer": 3
+            },
+            {
+              "einheitsGroesse": "250 g",
+              "entsprichtEinheit": "",
+              "be": "5.9",
+              "name": "Erdbeerkuchen",
+              "ke": "7.1",
+              "id": 105,
+              "subElements": [],
+              "layer": 3
+            },
+            {
+              "einheitsGroesse": "250 ml",
+              "entsprichtEinheit": "1 Teller",
+              "be": "1.5",
+              "name": "Birnenkuchen",
+              "ke": "1.8",
+              "id": 106,
+              "subElements": [],
+              "layer": 3
+            },
+            {
+              "einheitsGroesse": "250 ml",
+              "entsprichtEinheit": "1 Teller",
+              "be": "1.9",
+              "name": "Blaubeerkuchen",
+              "ke": "2.3",
+              "id": 107,
+              "subElements": [],
+              "layer": 3
+            },
+            {
+              "einheitsGroesse": "125 g",
+              "entsprichtEinheit": "",
+              "be": "2.3",
+              "name": "Grünbeerkuchen",
+              "ke": "2.8",
+              "id": 108,
+              "subElements": [],
+              "layer": 3
+            },
+            {
+              "einheitsGroesse": "100 g",
+              "entsprichtEinheit": "2 Stück",
+              "be": "6.8",
+              "name": "Schwarzbeerkuchen",
+              "ke": "8.1",
+              "id": 109,
+              "subElements": [],
+              "layer": 3
+            }
+          ],
+          "layer": 2
+        }],
+        "layer": 1
+      }],
+      "layer": 0
+    },
+    {
+      "name": "Getränke",
+      "id": 110,
+      "subElements": [
+        {
+          "name": "Kaffee, Tee und Kakao",
+          "id": 111,
+          "subElements": [
+            {
+              "name": "KAFFEE UND GETREIDEKAFFEE",
+              "id": 112,
+              "subElements": [
+                {
+                  "einheitsGroesse": "100 ml",
+                  "entsprichtEinheit": "",
+                  "be": "+",
+                  "name": "Espresso",
+                  "ke": "+",
+                  "id": 113,
+                  "subElements": [
+                    {
+                      "einheitsGroesse": "100 ml",
+                      "entsprichtEinheit": "",
+                      "be": "+",
+                      "name": "mit Milch",
+                      "ke": "+",
+                      "id": 114,
+                      "layer": 4
+                    },
+                    {
+                      "einheitsGroesse": "100 ml",
+                      "entsprichtEinheit": "",
+                      "be": "0.2",
+                      "name": "mit Milch und Zucker",
+                      "ke": "0.2",
+                      "id": 115,
+                      "layer": 4
+                    }
+                  ],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.3",
+                  "name": "Cappuccino",
+                  "ke": "0.3",
+                  "id": 116,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.4",
+                  "name": "Kaffee American",
+                  "ke": "0.5",
+                  "id": 117,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "250 g",
+                  "entsprichtEinheit": "",
+                  "be": "1.3",
+                  "name": "Eiskaffee",
+                  "ke": "1.6",
+                  "id": 118,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.6",
+                  "name": "Irish Coffee",
+                  "ke": "0.7",
+                  "id": 119,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "KAKAOPULVER UND -GETRÄNKE",
+              "id": 120,
+              "subElements": [
+                {
+                  "einheitsGroesse": "17 g",
+                  "entsprichtEinheit": "",
+                  "be": "1",
+                  "name": "Guter Kakao",
+                  "ke": "1.2",
+                  "id": 121,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "17 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.2",
+                  "name": "Besserer Kakao",
+                  "ke": "0.2",
+                  "id": 122,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "17 g",
+                  "entsprichtEinheit": "",
+                  "be": "0.9",
+                  "name": "Bester Kakao",
+                  "ke": "1.1",
+                  "id": 123,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "15 g",
+                  "entsprichtEinheit": "2 geh. TL",
+                  "be": "1",
+                  "name": "Schlechter Kakao",
+                  "ke": "1.2",
+                  "id": 124,
+                  "subElements": [{
+                    "einheitsGroesse": "200 ml",
+                    "entsprichtEinheit": "",
+                    "be": "1.8",
+                    "name": "zubereitet mit Liebe",
+                    "ke": "2.2",
+                    "id": 125,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "15 g",
+                  "entsprichtEinheit": "2 geh. TL",
+                  "be": "1.1",
+                  "name": "Ungenießbarer KakaoG",
+                  "ke": "1.3",
+                  "id": 126,
+                  "subElements": [{
+                    "einheitsGroesse": "200 ml",
+                    "entsprichtEinheit": "",
+                    "be": "1.9",
+                    "name": "zubereitet mit wenig Liebe",
+                    "ke": "2.3",
+                    "id": 127,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "SPORTGETRÄNKE",
+              "id": 128,
+              "subElements": [
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.8",
+                  "name": "Iso-Limette",
+                  "ke": "0.9",
+                  "id": 129,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.1",
+                  "name": "Iso-Kirsche",
+                  "ke": "0.1",
+                  "id": 130,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "250 ml",
+                  "entsprichtEinheit": "",
+                  "be": "2.1",
+                  "name": "Iso-Orange",
+                  "ke": "2.5",
+                  "id": 131,
+                  "subElements": [
+                    {
+                      "einheitsGroesse": "250 ml",
+                      "entsprichtEinheit": "1/2 Flasche",
+                      "be": "0",
+                      "name": "Normale Orange",
+                      "ke": "0",
+                      "id": 132,
+                      "layer": 4
+                    },
+                    {
+                      "einheitsGroesse": "250 ml",
+                      "entsprichtEinheit": "1/2 Flasche",
+                      "be": "2.1",
+                      "name": "Blutorange",
+                      "ke": "2.5",
+                      "id": 133,
+                      "layer": 4
+                    }
+                  ],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            }
+          ],
+          "layer": 1
+        },
+        {
+          "name": "Alkoholische Getränke",
+          "id": 134,
+          "subElements": [
+            {
+              "name": "BIER UND BIERGETRÄNKE",
+              "id": 135,
+              "subElements": [
+                {
+                  "einheitsGroesse": "330 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.9",
+                  "name": "Altbier",
+                  "ke": "1.1",
+                  "id": 136,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "330 ml",
+                  "entsprichtEinheit": "",
+                  "be": "1.9",
+                  "name": "Neubier",
+                  "ke": "2.3",
+                  "id": 137,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "330 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.8",
+                  "name": "Helles Bier",
+                  "ke": "1",
+                  "id": 138,
+                  "subElements": [
+                    {
+                      "einheitsGroesse": "330 ml",
+                      "entsprichtEinheit": "",
+                      "be": "3",
+                      "name": "Bayerisches Bier",
+                      "ke": "3.6",
+                      "id": 139,
+                      "layer": 4
+                    },
+                    {
+                      "einheitsGroesse": "330 ml",
+                      "entsprichtEinheit": "",
+                      "be": "1.5",
+                      "name": "Sächsisches Bier",
+                      "ke": "1.8",
+                      "id": 140,
+                      "layer": 4
+                    }
+                  ],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "330 ml",
+                  "entsprichtEinheit": "",
+                  "be": "2.2",
+                  "name": "Dunkeles Bier",
+                  "ke": "2.6",
+                  "id": 141,
+                  "subElements": [{
+                    "einheitsGroesse": "330 ml",
+                    "entsprichtEinheit": "",
+                    "be": "1.8",
+                    "name": "Schwarzes Bier",
+                    "ke": "2.1",
+                    "id": 142,
+                    "layer": 4
+                  }],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            },
+            {
+              "name": "WEIN, SCHAUMWEIN, WEINHALTIGE GETRÄNKE, SEKT",
+              "id": 143,
+              "subElements": [
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.9",
+                  "name": "Apfelwein",
+                  "ke": "1.1",
+                  "id": 144,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "125 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.3",
+                  "name": "Burgunder",
+                  "ke": "0.3",
+                  "id": 145,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "100 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.4",
+                  "name": "Champagner",
+                  "ke": "0.5",
+                  "id": 146,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "",
+                  "be": "0.5",
+                  "name": "Cidre",
+                  "ke": "0.6",
+                  "id": 147,
+                  "subElements": [],
+                  "layer": 3
+                },
+                {
+                  "einheitsGroesse": "200 ml",
+                  "entsprichtEinheit": "",
+                  "be": "2.5",
+                  "name": "Glühwein",
+                  "ke": "3",
+                  "id": 148,
+                  "subElements": [],
+                  "layer": 3
+                }
+              ],
+              "layer": 2
+            }
+          ],
+          "layer": 1
+        }
+      ],
+      "layer": 0
+    },
+    {
+      "name": "Custom",
+      "id": 149,
+      "subElements": [{
+        "name": "Ungeprüfte Einträge",
+        "id": 150,
+        "subElements": [{
+          "name": "Getreide",
+          "id": 151,
+          "subElements": [
+            {
+              "einheitsGroesse": "25 g",
+              "entsprichtEinheit": "",
+              "be": "1.0",
+              "name": "Vollkornsemmel",
+              "ke": "1.2",
+              "id": 152,
+              "subElements": [],
+              "layer": 3
+            },
+            {
+              "einheitsGroesse": "100 g",
+              "entsprichtEinheit": "",
+              "be": "2.9",
+              "name": "Schoko-Banane",
+              "ke": "2.4",
+              "id": 153,
+              "subElements": [],
+              "layer": 3
+            }
+          ],
+          "layer": 2
+        }],
+        "layer": 1
+      }],
+      "layer": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+CREATED:2020-03-21 04:06:23pm;
+person_name:Tester;
+  el_name:Vollkornsemmel;
+  el_be_val:1;
+  el_ke_val:1.2;
+  el_ref_val:25;
+  el_ref_unit:g;
+  el_ref_title:;
+DONE: Ja
+
+CREATED:2020-10-14 08:40:23pm;
+person_name:Tester;
+  el_name:Schoko Banane;
+  el_be_val:2.9;
+  el_ke_val:2.4;
+  el_ref_val:100;
+  el_ref_unit:g;
+  el_ref_title:;
+DONE: Ja
+

@@ -1,0 +1,87 @@
+:root {
+    /* font-families */
+    --font-family: Roboto, Arial, Helvetica, sans-serif;
+
+    /* font-weight */
+    --title-weight: lighter;
+    --p-weight: 18px;
+    --loading-indicator-size: normal;
+    --search-weight: lighter;
+    --settings-title-weight: normal;
+    --settings-text-weight: normal;
+    --category-weight: normal;
+    --active-category-weight: bolder;
+    --nothing-found-weight: normal;
+    --subtitles-layer1-weight: normal;
+    --subtitles-layer2-weight: normal;
+    --element-name-weight: normal;
+    --element-value-weight: bolder;
+    --element-value-unit-weight: normal;
+    --element-body-weight: normal;
+    --element-convert-weight: normal;
+    --calc-close-weight: normal;
+    --calc-description-weight: 14px;
+    --calc-input-weight: normal;
+    --calc-result-value-weight: bolder;
+    --calc-result-unit-weight: normal;
+    --calc-result-symbol-weight: normal;
+    --calc-error-weight: normal;
+
+    --h1-weight: normal;
+    --h2-weight: normal;
+    
+    /* font-sizes */
+    --title-size: 36px;
+    --p-size: 18px;
+    --loading-indicator-size: 24px;
+    --search-size: 24px;
+    --settings-title-size: 18px;
+    --settings-text-size: 14px;
+    --category-size: 18px;
+    --category-result-num-size: 18px;
+    --nothing-found-size: 24px;
+    --subtitles-layer1-size: 24px;
+    --subtitles-layer2-size: 18px;
+    --element-name-size: 18px;
+    --element-value-size: 24px;
+    --element-value-unit-size: 14px;
+    --element-body-size: 14px;
+    --element-convert-size: 14px;
+    --calc-close-size: 18px;
+    --calc-description-size: 24px;
+    --calc-input-size: 18px;
+    --calc-result-value-size: 24px;
+    --calc-result-unit-size: 24px;
+    --calc-result-symbol-size: 24px;
+    --calc-error-size: 18px;
+
+    --mobile-title-size: 36px;
+    --mobile-p-size: 18px;
+    --mobile-loading-indicator-size: 24px;
+    --mobile-search-size: 18px;
+    --mobile-settings-title-size: 18px;
+    --mobile-settings-text-size: 14px;
+    --mobile-category-size: 18px;
+    --mobile-category-result-num-size: 14px;
+    --mobile-nothing-found-size: 18px;
+    --mobile-subtitles-layer1-size: 24px;
+    --mobile-subtitles-layer2-size: 18px;
+    --mobile-element-name-size: 16px;
+    --mobile-element-value-size: 20px;
+    --mobile-element-value-unit-size: 12px;
+    --mobile-element-body-size: 14px;
+    --mobile-element-convert-size: 14px;
+    --mobile-calc-close-size: 18px;
+    --mobile-calc-description-size: 24px;
+    --mobile-calc-input-size: 18px;
+    --mobile-calc-result-value-size: 24px;
+    --mobile-calc-result-unit-size: 24px;
+    --mobile-calc-result-symbol-size: 24px;
+    --mobile-calc-error-size: 18px;
+    
+    --h1-size: 48px;
+    --h2-size: 36px;
+
+    /* Font-Style */
+    --element-convert-style: italic;
+}

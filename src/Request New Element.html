@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Diabetes Reference</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/requestNewElement_Main.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/colors.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class=""> <!--header_hidden-->
+        <a href="" onclick="window.close();">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/>
+                <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"/><path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+            Vorschlag löschen
+        </a>
+    </header>
+    <main>
+        <form id="value_input_form" action="saveElementRequest.php" method="POST">
+            <div id="form_header">
+                <h1>Neuen Essens-Eintrag vorschlagen</h1>
+                <div id="person_name_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 24 24" width="30">
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/><path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                    <label>Dein Name</label>
+                    <input name="person_name" type="text" placeholder="Olaf"required="required" >
+                </div>
+            </div>
+            <div class="new_element">
+                <table>
+                    <tr>
+                        <td><label>Bezeichnung</label></td>
+                        <td><input name="el_name_0" type="text" placeholder="Käsekuchen"required="required" ></td>
+                    </tr>
+                    <tr>
+                        <td><label>BE-Wert</label></td>
+                        <td><input name="el_be_val_0" type="number" placeholder="3.5" step="0.01" class="ending" required="required"><label>BE</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>KE-Wert</label></td>
+                        <td><input name="el_ke_val_0" type="number" placeholder="3.9" step="0.01" class="ending" required="required"><label>KE</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Referenz-Menge</label></td>
+                        <td><input name="el_ref_val_0" type="number" placeholder="100" step="0.01"required="required" ></td>
+                    </tr>
+                    <tr>
+                        <td><label>Referenz-Einheit</label></td>
+                        <td>
+                            <select name="el_ref_unit_0" name="" required="required" >
+                                <option value="g">g</option>
+                                <option value="ml">ml</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Referenz-Bezeichnung</label></td>
+                        <td><input name="el_ref_title_0" type="text" placeholder="Ein Stück"></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="add_new_element_trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 0 24 24" width="35">
+                    <path d="M0 0h24v24H0z" fill="none"/><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                </svg>
+                Weiteren Vorschlag hinzufügen.
+            </div>
+            <div id="submit">
+                <button id="submit_button" type="Submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/><path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                    Vorschlag senden
+                </button>
+            </div>
+        </form>
+    </main>
+    <footer>
+      <script></script>
+      <script src="script/requestNewElement_main.js"></script>
+    </footer>
+  </body>
+</html>

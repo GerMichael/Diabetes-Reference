@@ -1,0 +1,154 @@
+$Milch und Käse
+$#Milch, Joghurt, Sahne
+$##MILCH
+!Kuhmilch#1 Glas#200 ml#0,8#0,9
+– glückliche Kuhmilch#1 Glas#200 ml#0,8#1
+– gesonnte Kuhmilch#1 Glas#200 ml#0,8#1
+– geschüttelte Kuhmilch#1 Glas#200 ml#0,8#1
+!Schafsmilch##125 g#0,5#0,6
+!Sonnenmilch##125 g#0,7#0,8
+!Kokosmilch##125 g#0,4#0,5
+$##MILCHMISCHGETRÄNKE
+!Bananenmilch#1 Glas#200 ml#2,5#3
+!Milchbanane#1 Becher#200 ml#1,7#2
+!Bananenlosemilch#1 Becher#250 g#2,4#2,9
+– BananenlosemilchmitBanane#1 Becher#250 g#2,5#3
+$#Käse und Quark
+$##FRISCHKÄSE UND QUARK
+!Leckerer Frischkäse##30 g#0,1#0,1
+– Sehr leckerer Frischkäse##30 g#0,1#0,1
+!Nur halb so leckerer Frischkäse##20 g#0,1#0,1
+– Frischkäse, der OK ist##20 g#0,1#0,1
+!Anderer Frischkäse##150 g#0,7#0,8
+$##KÄSE
+!Bayerische Käse##20 g#0,1#0,1
+!Deutscher Käse##30 g#0#0
+!Europäischer Käse##50 g#0#0
+!Internationaler Käse##30 g#0#0
+$##KÄSEGERICHTE
+!Camembert##75 g#1,3#1,6
+– Gebackener Camembert##75 g#0,9#1,1
+!Käsespätzle##75 g#0,9#1,1
+$Gemüse und Obst
+$#Gemüse
+$##FRISCHES GEMÜSE
+!Frischer Kohl#1 Stück#100 g#0,3*#0,3*
+!Frische Tomate##200 g#0,4*#0,5*
+!Frische Gurke##200 g#4#4,8
+!Frischer Brokkoli##200 g#0,4*#0,5*
+!Frische Bohnen##200 g#2,1#2,5
+$##GEMÜSEKONSERVEN
+!Apfelrotkohl##200 g#1,5#1,8
+!Kartoffelsalat##50 g#0,1#0,1
+!Essiggurken##50 g#0,1#0,1
+$#SALAT, KRÄUTER, SPROSSEN UND PILZE
+$##BLATTSALATE
+!Grüner Salat##50 g#0,1*#0,1*
+!Roter Salat##25 g#0,1*#0,1*
+!Blauer Salat##100 g#0,2*#0,2*
+!Gelber Salat##100 g#0,2*#0,2*
+!Orangener Salat##50 g#0,1*#0,1*
+!Brauner Salat##50 g#0,1*#0,1*
+!Weißer Salat##50 g#0,1*#0,1*
+!Schwarzer Salat##50 g#+*#+*
+$##SALATE, FRISCH ZUBEREITET, MIT DRESSING ODER MARINADE
+!Orangener Salat mit Kürbis##100 g#0,3*#0,4*
+!Roter Salat mit Tomate##100 g#0,2*#0,2*
+!Brauner Salat mit Pilzen##100 g#0,1*#0,1*
+!Weißer Salat mit Blumenkohl##100 g#0,1*#0,1*
+– mit Joghurtsauce##100 g#0,2*#0,2*
+$#Obst
+$##FRISCHES OBST
+!Erdbeeren##125 g#0,3#0,3
+!Ananas##125 g#1,3#1,6
+!Äpfel##150 g#1,8#2,2
+!Aprikose##50 g#0,3#0,4
+!Orange##100 g#0,6*#0,7*
+$Getreide
+$#Frühstückscerealien
+$##MÜSLI
+!Schokomüsli##30 g#1,4#1,7
+– Zartbitter Schokomüsli###1,9#2,3
+– Weißes Schokomüsli###1,9#2,3
+– VollmilchSchokomüsli###1,9#2,3
+!Erdbeermüsli##40 g#2#3
+!Biermüsli##30 g#1,5#1,8
+$#Kuchen und Gebäck
+$##KUCHEN UND TORTEN
+!Apfelkuchen##150 g#3,6#4,3
+– Apfelkuchen ohne Äpfel##150 g#3,8#4,5
+– Apfelkuchen ohne Kuchen##150 g#4,3#5,2
+!Apfelstrudel##150 g#3,3#3,9
+!Birnenstrudel##100 g#2,3#2,7
+!Beerenstrudel##150 g#2,7#3,2
+!Bärenstrudel##70 g#2,6#3,1
+$Fleisch, Wurst und Eier
+$#Flesich und Geflügel
+$##FLEISCH
+!Hasenfleisch##125 g#0#0
+!Hirschfleisch##125 g#0#0
+!Eulenfleisch##125 g#0#0
+!Kaninchenfleisch##125 g#0#0
+!Lammfleisch##125 g#0#0
+$#Fleisch- und Wurstwaren
+$##Fleisch- und Wurstwaren
+!Runde Wurst##150 g#+#+
+!Viereckige Wurst##30 g#+#+
+!Fünfeckige Wurst##25 g#+#+
+!Rautenwurst##30 g#0,1#0,1
+– Rautenwurst mit fünf Ecken##30 g#+#+
+!Zweieckige Wurst?##100 g#+#+
+!Punktuelle Wurst!##30 g#0#0
+$Süße Gerichte und Desserts
+$#Süße Gerichte und Desserts
+$##SÜSSE GERICHTE
+!Schokokuchen#2 Stück#200 g#5,2#6,2
+!Erdbeerkuchen##250 g#5,9#7,1
+!Birnenkuchen#1 Teller#250 ml#1,5#1,8
+!Blaubeerkuchen#1 Teller#250 ml#1,9#2,3
+!Grünbeerkuchen##125 g#2,3#2,8
+!Schwarzbeerkuchen#2 Stück#100 g#6,8#8,1
+$Getränke
+$#Kaffee, Tee und Kakao
+$##KAFFEE UND GETREIDEKAFFEE
+!Espresso##100 ml#+#+
+– mit Milch##100 ml#+#+
+– mit Milch und Zucker##100 ml#0,2#0,2
+!Cappuccino##100 ml#0,3#0,3
+!Kaffee American##200 ml#0,4#0,5
+!Eiskaffee##250 g#1,3#1,6
+!Irish Coffee##100 ml#0,6#0,7
+$##KAKAOPULVER UND -GETRÄNKE
+!Guter Kakao##17 g#1#1,2
+!Besserer Kakao##17 g#0,2#0,2
+!Bester Kakao##17 g#0,9#1,1
+!Schlechter Kakao#2 geh. TL#15 g#1#1,2
+– zubereitet mit Liebe##200 ml#1,8#2,2
+!Ungenießbarer KakaoG#2 geh. TL#15 g#1,1#1,3
+– zubereitet mit wenig Liebe##200 ml#1,9#2,3
+$##SPORTGETRÄNKE
+!Iso-Limette##200 ml#0,8#0,9
+!Iso-Kirsche##200 ml#0,1#0,1
+!Iso-Orange##250 ml#2,1#2,5
+– Normale Orange#1/2 Flasche#250 ml#0#0
+– Blutorange#1/2 Flasche#250 ml#2,1#2,5
+$#Alkoholische Getränke
+$##BIER UND BIERGETRÄNKE
+!Altbier##330 ml#0,9#1,1
+!Neubier##330 ml#1,9#2,3
+!Helles Bier##330 ml#0,8#1
+– Bayerisches Bier##330 ml#3#3,6
+– Sächsisches Bier##330 ml#1,5#1,8
+!Dunkeles Bier##330 ml#2,2#2,6
+– Schwarzes Bier##330 ml#1,8#2,1
+$##WEIN, SCHAUMWEIN, WEINHALTIGE GETRÄNKE, SEKT
+!Apfelwein##200 ml#0,9#1,1
+!Burgunder##125 ml#0,3#0,3
+!Champagner##100 ml#0,4#0,5
+!Cidre##200 ml#0,5#0,6
+!Glühwein##200 ml#2,5#3
+$Custom
+$#Ungeprüfte Einträge
+$##Getreide
+!Vollkornsemmel##25 g#1,0#1,2
+!Schoko-Banane##100 g#2,9#2,4

@@ -1,0 +1,4 @@
+$Category
+$#First Layer
+$##Second Layer
+!Name#Referenz-Beschreibung#Referenz-Menge#BE#KE

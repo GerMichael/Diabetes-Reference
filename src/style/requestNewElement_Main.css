@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    display: none !important;
+}
+
+#debug{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(252, 92, 92, 0.5);
+    z-index: 1000;
+}
+
+html{
+    background-color: #EEE;
+}
+
+header svg{
+    fill: #FFF;
+    margin-right: 10px;
+}
+
+header a{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    transform: scale(1);
+    
+    font-family: var(--font-family);
+    font-size: var(--settings-title-size);
+    font-weight: var(--settings-title-size);
+
+    color: var(--text-color-light);
+
+    border-radius: 50px;
+
+    transition: box-shadow .3s ease;
+
+    text-decoration: none;
+}
+
+header a:hover{
+    box-shadow: 0 0 5px #111;
+}
+
+main{
+    display: block;
+    width: 100%;
+    top: 55px;
+    position: absolute;
+
+    margin-bottom: 20px;
+}
+
+main h1{
+    margin: 20px 10px 0 10px;
+
+    font-family: var(--font-family);
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+
+    color: var(--text-color-dark);
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing:border-box;
+}
+
+#form_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px #000;
+    background-color: #FFF;
+}
+
+#person_name_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 20px;
+
+}
+
+#person_name_container label{
+    margin-left: 5px;
+    margin-right: 27px;
+}
+
+.new_element{
+    position: relative;
+    padding: 5px 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FFF;
+
+    border-radius: 10px;    
+    box-shadow: 0 0 5px #000;
+}
+
+.new_element:not(:nth-child(2)){
+    border-top: 1px var(--text-color-light-gray) solid;
+}
+
+.new_element .close{
+    position: absolute;
+    top: -15px;
+    right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+
+    background-color: #FFF;
+
+    border-radius: 50px;
+    box-shadow: 0 0 3px #000;
+
+    cursor: pointer;
+}
+
+
+main form, main form input{
+    font-family: var(--font-family);
+    font-size: var(--p-size);
+    font-weight: var(--p-weight);
+
+    color: var(--text-color-dark);
+}
+
+main form input.ending{
+    width: calc(100% - 30px);
+    margin-right: 5px;
+}
+
+main form table{
+    border-collapse:separate; 
+    border-spacing: 10px 15px;
+}
+
+main form input, main form select, main form button{
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+main form input, main form select{
+    border-bottom: 1px solid var(--text-color-light-gray);
+}
+
+main form input:focus, main form select:focus{
+    border-bottom: 1.3px solid var(--main-color);
+}
+
+main form select{
+
+    font-family: var(--font-family);
+    font-size: var(--p-size);
+    font-weight: var(--p-weight);
+
+    color: var(--text-color-dark);
+
+    background-image: url("../imgs/arrow_drop_down-24px.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+}
+
+main form #submit_button{
+    margin: 20px 0 50px 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: var(--font-family);
+    font-size: var(--settings-title-size);
+    font-weight: var(--settings-title-size);
+
+    color: var(--text-color-dark);
+
+    cursor: pointer;
+
+    border: solid 1px var(--text-color-dark);
+    border-radius: 50px;
+    
+    background-color: #FFF;
+
+    transition: background-color .3s ease;
+}
+
+main form #submit_button:hover{
+    background-color: var(--text-color-light-gray);
+}
+
+main form #submit_button svg{
+    margin-right: 10px;
+}
+
+#add_new_element_trigger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px 0;
+
+    color: var(--text-color-gray);
+
+    cursor: pointer;
+}
+
+#add_new_element_trigger svg{
+    margin-right: 10px;
+
+    fill: var(--text-color-gray);
+
+    transform: scale(1);
+    transition: transform .3s ease;
+}
+#add_new_element_trigger:hover svg{
+    transform: scale(1.2);
+}
+
+@media (max-width: 465px){
+    header.header_hidden a{
+        transform: scale(0);
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .new_element{
+        border-radius: 0;    
+    }
+}
