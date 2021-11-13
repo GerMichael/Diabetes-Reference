@@ -30,8 +30,4 @@ Obviously, not every existing food and drink can be found in this dataset. Howev
 
 Since, most of the people don’t carry their notebook with them while eating food, the target devices are mobiles. The responsive design ensures for these use cases a better user experience. Especially, the search bar shrunk to the size of a small button on the bottom of the page to save valuable space on mobile devices. 
 
-<img src="imgs/responsive-index.jpg" width="32%"/>
-
-<img src="imgs/responsive-search.jpg" width="32%"/>
-
-<img src="imgs/responsive-proposal.jpg" width="32%"/>
+<img src="imgs/responsive.png"/>
