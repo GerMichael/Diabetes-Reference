@@ -4,7 +4,7 @@
 ## General
 A web application intended to support diabetics handling their everyday life. It allows them to find information about the food they eat in order to manage it properly in the face of the disease. 
 
-This web-project was created by me in the third semester of my study. Since then, nothing has changed considering the feature set and code quality. Unfortunately, the original data-set is not available for the public so dummy data will be used instead. This may change in the future.
+This web-project was created by me in the third semester of my study. Since then, nothing has changed considering the feature set and code quality. Unfortunately, the original data-set is not available for the public so for this repo dummy data will be used instead. This may change in the future.
 
 Currently, the application gets updated. New technologies and features will be implemented. The current concepting progress can be viewed on [the corresponding Miro board](https://miro.com/app/board/o9J_ljjXDGI=/?invite_link_id=727903907767).
 
@@ -31,3 +31,9 @@ Obviously, not every existing food and drink can be found in this dataset. Howev
 Since, most of the people don’t carry their notebook with them while eating food, the target devices are mobiles. The responsive design ensures for these use cases a better user experience. Especially, the search bar shrunk to the size of a small button on the bottom of the page to save valuable space on mobile devices. 
 
 <img src="imgs/responsive.png"/>
+
+### Color theme
+
+This feature was just added to address the color preferences of users. The color accents will be adjusted by switching the theme.
+
+<img src="imgs/color-themes.jpg"/>
